@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafeteria - Menú</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/tabletop@1.6.0/tabletop.min.js"></script>
+  <link rel="icon" href="img/icon.png" type="image/png">
+</head>
+<body>
+  <header>
+    <h1>Cafeteria</h1>
+    <p>Café para vos ☕</p>
+  </header>
+    <nav class="menu">
+        <button onclick="mostrarSeccion('cafes')">Cafés</button>
+        <button onclick="mostrarSeccion('tortas')">Tortas</button>
+        <button onclick="mostrarSeccion('dulces')">Dulces</button>
+        <button onclick="mostrarSeccion('bebidas-c')">Bebidas Calientes</button>
+        <button onclick="mostrarSeccion('bebidas-f')">Bebidas Frias</button>
+        <button onclick="mostrarSeccion('salados')">Salados</button>
+        <button onclick="mostrarSeccion('promos')">Promos</button>
+    </nav>
+  <main>
+   <section id="cafes" class="contenido activo">
+  <h2>Cafés</h2>
+  <ul>
+    <li>Café con leche <span>$?</span></li>
+    <li>Café Latte <span>$?</span></li>
+    <li>Lágrima <span>$?</span></li>
+    <li>Americano <span>$?</span></li>
+    <li>Cortado <span>$?</span></li>
+    <li>Flat White <span>$?</span></li>
+    <li>Macchiato <span>$?</span></li>
+    <li>Capuchino clásico <span>$?</span></li>
+    <li>Capuchino Caramel <span>$?</span></li>
+    <li>Capuchino Moka <span>$?</span></li>
+    <li>Capuchino Italiano <span>$?</span></li>
+    <li>Capuchino Pink <span>$?</span></li>
+  </ul>
+</section>
+
+<section id="bebidas-c" class="contenido activo">
+  <h2>Bebidas calientes</h2>
+  <ul>
+    <li>Submarino <span>$?</span></li>
+    <li>Chocolatada <span>$?</span></li>
+    <li>Té <span>$?</span></li>
+    <li>Té con leche <span>$?</span></li>
+    <li>Té saborizado <span>$?</span></li>
+    <li>Leche <span>$?</span></li>
+  </ul>
+</section>
+
+<section id="bebidas-f" class="contenido activo">
+  <h2>Fríos y Licuados</h2>
+  <ul>
+    <li>Milkshake dulce de leche <span>$?</span></li>
+    <li>Milkshake frutilla <span>$?</span></li>
+    <li>Milkshake oreo <span>$?</span></li>
+    <li>Frapuccino <span>$?</span></li>
+    <li>Ice coffee <span>$?</span></li>
+    <li>Exprimido <span>$?</span></li>
+    <li>Licuado banana <span>$?</span></li>
+    <li>Otros licuados <span>$?</span></li>
+  </ul>
+</section>
+
+<section id="dulces" class="contenido">
+  <h2>Delicias dulces</h2>
+  <ul>
+    <li>Medialunas <span>$?</span></li>
+    <li>Medialunas JyQ <span>$?</span></li>
+    <li>Budín / Muffin / Cookies <span>$?</span></li>
+    <li>Waffles <span>$?</span></li>
+    <li>Croissant relleno <span>$?</span></li>
+    <li>Rol de canela <span>$?</span></li>
+  </ul>
+</section>
+
+<section id="tortas" class="contenido">
+  <h2>Tortas</h2>
+  <ul>
+    <li>Cheesecake Oreo o Frutos Rojos <span>$?</span></li>
+    <li>Brownie con crema o helado <span>$?</span></li>
+    <li>Chocotorta / Red Velvet / Carrot Cake / Matilda / Selva Negra <span>$?</span></li>
+  </ul>
+</section>
+
+<section id="salados" class="contenido">
+  <h2>Gustos salados</h2>
+  <ul>
+    <li>Tostado de miga <span>$?</span></li>
+    <li>Tostados árabes <span>$?</span></li>
+    <li>Tostadas integrales con dips <span>$?</span></li>
+    <li>Tostadas con huevos <span>$?</span></li>
+    <li>Pan de campo <span>$?</span></li>
+    <li>Croissants JyQ <span>$?</span></li>
+  </ul>
+</section>
+
+<section id="promos" class="contenido">
+  <h2>Promos</h2>
+  <ul>
+    <li>Café con leche o exprimido + 2 medialunas <span>$?</span></li>
+    <li>Chocolatada + Muffins <span>$?</span></li>
+    <li>Infusión + Budín <span>$?</span></li>
+    <li>Cumpleaños con DNI <span>¡Café gratis!</span></li>
+  </ul>
+</section>
+  <footer>
+    <p>Cafeteria ☕</p>
+    <p><small>Wifi disponible</small></p>
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>
